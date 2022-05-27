@@ -76,7 +76,7 @@ a{
   width: 120px;
   height: 24px;
   background-image: url(https://hexschool.github.io/Rwd_sketch_export/assets/logo_w@svg.svg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
 }
 .logo a{
   display: block;
