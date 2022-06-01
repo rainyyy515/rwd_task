@@ -208,7 +208,7 @@ a {
   color: #ffffff;
   font-size: 24px;
 }
-@media (max-width: 414px) {
+@media (max-width: 767px) {
   .header {
     background-repeat: no-repeat;
     background-image: url(https://hexschool.github.io/Rwd_sketch_export/assets/header_mobile.png);
@@ -222,12 +222,15 @@ a {
     text-align: center;
     top: 56px;
     right: 0;
-    left: 70%;
+    left: 0;
     max-height: 0;
     overflow: hidden;
     z-index: 100;
-    background: rgba(0, 0, 0, 0.8);
-    transition: all 1.5s;
+    background: rgba(0, 0, 0, 0.85);
+    transition: all 0.5s;
+  }
+  .navbar li:hover{
+    background: #FFFFFF;
   }
   .navbar.navbar-show {
     max-height: 100%;
