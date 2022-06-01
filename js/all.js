@@ -9,4 +9,10 @@ $('document').ready(function () {
     $(this).toggleClass('fa-regular fa-heart');
     $(this).toggleClass('fa-solid fa-heart');
   });
+
+  //點擊漢堡選單時show
+  $('.navbarShow').on('click', function (e) {
+    e.preventDefault();
+    $('.navbar').toggleClass('navbar-show');
+  });
 });

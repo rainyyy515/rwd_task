@@ -1,57 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/all.css">
-</head>
-<body>
-  <div class="wrap">
-    <div class="header">
-      <h1 class="logo"><a href="#">六角西餐廳</a></h1>
-      <ul class="navbar">
-        <li><a href="#">特色</a></li>
-        <li><a href="#">主廚</a></li>
-        <li><a href="#">地圖</a></li>
-      </ul>
-      <div class="bannerText">
-        <h2>咬一口就無法忘懷的漢堡</h2>
-        <p>七夕絕對無法錯過的好滋味<br>六角大漢堡 </p>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="login"></div>
-    </div>
-
-    <div class="footer">
-      <div class="footerItem">
-        <h5>關於 六角西餐廳</h5>
-        <p>Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. </p>
-      </div>
-      <div class="footerItem2">
-        <h5>聯絡方式</h5>
-        <ul>
-          <li>•	高雄市中正五路到底</li>
-          <li>•	+886 886 886</li>
-          <li>•	service@hexschool.com</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/198/198416.png">
+    <meta name="description" content="網站描述文字">
+    
+    <meta property="og:title" content="六角西餐廳">
+    <meta property="og:description" content="六角西餐廳的描述內容">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rainyyy515.github.io/rwd_task/">
+    <meta property="og:image" content="六角西餐廳的圖片">
+    <link rel="apple-touch-icon" href="https://media.istockphoto.com/photos/hamburger-with-cheese-and-french-fries-picture-id1188412964?k=20&m=1188412964&s=612x612&w=0&h=Ow-uMeygg90_1sxoCz-vh60SQDssmjP06uGXcZ2MzPY=">
+  
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.1.0/build/pure-min.css"
+      integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <h1 class="logo"><a href="#">六角西餐廳</a></h1>
+        <ul class="navbar">
+          <li><a href="#">特色</a></li>
+          <li><a href="#">主廚</a></li>
+          <li><a href="#">地圖</a></li>
         </ul>
+        <div class="bannerText">
+          <h2>咬一口就無法忘懷的漢堡</h2>
+          <p>七夕絕對無法錯過的好滋味<br />六角大漢堡</p>
+        </div>
       </div>
-      <div class="footerItem3">
-        <img src="https://hexschool.github.io/Rwd_sketch_export/assets/logo_l@svg.svg" alt="">
-        <ul>
-          <li><a class="fa-brands fa-google-plus-square" href="#"></a></li>
-          <li><a class="fa-brands fa-twitter-square" href="#"></a></li>
-          <li><a class="fa-brands fa-facebook-square" href="#"></a></li>
-        </ul>
+
+      <div class="content">
+        <div class="login">
+          <img src="https://hexschool.github.io/Rwd_sketch_export/assets/logo_l@svg.svg" alt="">
+          <h3>享受美食好味道</h3>
+          <form class="pure-form pure-form-stacked">
+            <fieldset>
+              <legend class="legend">Login</legend>
+              <label for="stacked-email">Email Address*</label>
+              <i class="fa-regular fa-envelope"></i>
+              <input type="email" id="stacked-email" placeholder="Email" />
+              <label for="stacked-password">Password*</label>
+              <i class="fa-solid fa-lock"></i>
+              <input type="password"  id="stacked-password" placeholder="Password"/>
+              <a href="#">忘記密碼?</a>
+              <button type="submit" class="pure-button pure-button-primary">登入</button>
+              <button type="submit" class="pure-button pure-button-primary">註冊</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footerItem">
+          <h5>關於 六角西餐廳</h5>
+          <p>
+            Curabitur lobortis id lorem id bibndum. Ut id consectetur magna.
+            Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.
+          </p>
+        </div>
+        <div class="footerItem2">
+          <h5>聯絡方式</h5>
+          <ul>
+            <li>• 高雄市中正五路到底</li>
+            <li>• +886 886 886</li>
+            <li>• service@hexschool.com</li>
+          </ul>
+        </div>
+        <div class="footerItem3">
+          <img
+            src="https://hexschool.github.io/Rwd_sketch_export/assets/logo_l@svg.svg"
+            alt=""
+          />
+          <ul>
+            <li><a class="fa-brands fa-google-plus-square" href="#"></a></li>
+            <li><a class="fa-brands fa-twitter-square" href="#"></a></li>
+            <li><a class="fa-brands fa-facebook-square" href="#"></a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 
-  <script src="https://kit.fontawesome.com/d556ee0254.js" crossorigin="anonymous"></script>
-  <script src="js/all.js"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/d556ee0254.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/all.js"></script>
+  </body>
 </html>
