@@ -170,7 +170,6 @@ a {
 }
 .navbar {
   display: flex;
-  margin-right: 20px;
 }
 .navbar a {
   display: block;
@@ -535,6 +534,8 @@ a {
   height: 32px;
   border: 2px solid #3d1101;
   background: #efe9e7;
+  margin-left: 30px;
+
 }
 .search input:focus {
   box-shadow: 0 0 10px #3d1101;
@@ -555,6 +556,7 @@ a {
 .shopCart li:nth-child(1) {
   border-right: 1px solid #3d1101;
 }
+
 /* menuItem樣式 */
 .menuItem {
   display: flex;
@@ -623,6 +625,53 @@ a {
   /* 滑鼠指標 */
   cursor: pointer;
 }
+@media (max-width: 960px){
+  .menuItem li {
+    width: 48%;
+  }
+}
+@media (max-width: 767px){
+  .cart {
+    display: block;
+  }
+  .list h4 {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 10px;
+    padding-top: 20px;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 90%;
+  }
+  .list > li a {
+    width: 100%;
+  }
+  .list > li{
+    width: 48%;
+    margin: 0 1%;
+  }
+  .menuTop {
+    justify-content: center;
+  }
+  .shopCart {
+    margin: 0;
+  }
+  .menuItem {
+    margin: 0 auto;
+    margin-top: 26px;
+  }
+  .menuItem li {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
 
 /*                             Login樣式 */
 .login img {
